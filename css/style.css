@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {text-decoration:none}
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -65,17 +66,19 @@ table {
 	color: #838994; 
 	margin-top:25px;
 	-webkit-font-smoothing: antialiased;
+
 }
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
-    text-decoration: none;
 }
 .top-navigation .links > .active {
     color: #4c5058;
-    font-weight: 600;
+    font-weight: 500;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+    transition: background-color 0.5s ease;
+	background-color:red;
 }
