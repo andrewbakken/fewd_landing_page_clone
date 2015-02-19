@@ -82,12 +82,19 @@ a {text-decoration:none;}
     color: #4c5058;
     font-weight: 500;
 }
-.top-navigation .links li:hover {
+.top-navigation .links {
     cursor: pointer;
     color: #333333;
-    transition: background-color 0.5s ease;
-	background-color:red;
+    transition: color 0.5s ease;
 }
+.top-navigation a {
+	color:green;
+}
+.top-navigation a:hover {
+	color:grey;
+	transition: color 0.5s ease;
+}
+
 /* Main Section*/
 
 .introduction {
@@ -129,7 +136,6 @@ a {text-decoration:none;}
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
-a {
-  text-decoration: none; /* no underline */
+.big-button a{
+	color: white;
 }
-	
